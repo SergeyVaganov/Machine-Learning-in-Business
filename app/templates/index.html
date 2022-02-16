@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <title>{% block title %}Main page{% endblock %}</title>
+    </head>
+    <body>
+        <main role="main" class="container">
+            <div class="bloc">
+                {% block content %}
+                <h2 class="text">Бинарный классификатор. <br> Определение пола человека по фото</h2>
+                <div class="text-center">
+                    <a href="{{ url_for('predict_form') }}">Готовы начать</a>
+                </div>
+                {% endblock %}
+            </div>
+        </main>
+  </body>
+</html>

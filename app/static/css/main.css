@@ -1,0 +1,14 @@
+.bloc {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid #f1c40f;
+  color: #f1c40f;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+  width:35%;
+  height:130px;
+
+}
